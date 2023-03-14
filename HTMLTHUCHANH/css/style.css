@@ -1,0 +1,95 @@
+.box {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 1440px;
+}
+
+.menu {
+    width: 90px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 0;
+    border-right: solid 1px #f3f3f4;
+}
+
+.menutop {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgleft {
+    width: 32px;
+    margin-top: 50px;
+}
+
+.menubot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#setting {
+    margin-top: 36px;
+}
+
+#center {
+    width: 895px;
+    border-right: solid 1px #f3f3f4;
+    margin-left: 43px;
+}
+
+#right {
+    right: 0%;
+}
+
+.title {
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 43px;
+    margin-top: 35px;
+}
+
+.time {
+    border: red 2px solid;
+    border-radius: 50px;
+    height: 40px;
+    width: 95px;
+    display: inline-block;
+    text-align: center;
+}
+
+.internal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.redbtn {
+    background-color: #E34D73;
+    color: white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 40px;
+    justify-content: center;
+    line-height: 0;
+}
+
+.itemcen {
+    margin-left: 20px;
+}
+
+.bigpic {
+    margin-top: 35px;
+}

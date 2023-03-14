@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="20095591" content="MaSoSinhVien">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <style>
+    table{
+      border: 1px solid black;
+      width: 500px;
+      height: 500px;
+    }
+    tr{
+      border: 1px solid black;
+    }
+    td{
+      border: 1px solid black;
+      text-align: center;
+    }
+    .cam{
+      background-color: orange;
+    }
+    .vang{
+      background-color: yellow;
+    }
+  </style>
+
+        <table>
+          <tr >
+            <td>1</td>
+            <td colspan="5">2</td>
+          </tr>
+          <tr >
+
+              <td rowspan="3">3</td>
+              <td class="cam">4</td>
+              <td class="cam">5</td>  
+              <td colspan="3" rowspan="2" class="vang">6</td>
+          </tr>
+          <tr>
+            <td class="cam">7</td>
+            <td class="cam">8</td>
+          </tr>
+          <tr>
+            <td colspan="2 "class="vang">9</td>
+            <td colspan="2" class="vang">10</td>
+          </tr>
+        </table>
+  
+</body>
+</html>

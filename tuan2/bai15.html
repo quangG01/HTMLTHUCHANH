@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        label{
+            position: relative;
+            width: 100px;
+        }
+        input{
+            position: relative;
+            /* width: 200px; */
+            /* margin:5px; */
+        }
+        .cb{
+            margin-top: 10px;
+            position: relative;
+            left: 50px;
+        }
+    </style>
+    <div>
+        <h1>Contact us</h1>
+        <fieldset>
+            <legend>
+                Your Message
+            </legend>
+                <form action="">
+                    <label for="cafe">To</label> <input style="left:80px" type="text" placeholder="Example Cafe"><br>
+                    <label for="">Your Email</label> <input style="left:20px" type="text"><br>
+                   <div style="display: flex;align-items: center;">
+                    <label for="">Message</label> <textarea name="" id="" cols="50" rows="10" style="display: inline-block;"> </textarea>
+                   </div>
+                </form>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us:</legend>
+            <form action="">
+                <div>
+                    <label style="display: inline-block;" for="">How did you hear of us</label> 
+                    <select style="width: 200px;" name="option" id="option">
+                        <option value="google">Google</option>
+                        <option value="facebook">Facebook</option>
+                    </select> <br>
+                    <div style="display: inline-block;">
+                        <label  for="news">Newsletter</label> 
+                        <input type="checkbox" name = "news" class="cb" >
+                        <label for="vehicle1" style="position: relative;left:50px;"> Ensure this box is checked if you would like to recieve email updates</label> 
+                    </div>
+                    
+                </div>
+            </form>
+       
+        </fieldset>
+        <input type="button" value="Send Message">
+    </div>
+</body>
+</html>
